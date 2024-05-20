@@ -1,0 +1,12 @@
+{
+  "name": "backend-mabduh",
+  "version": "1.0.0",
+  "description": "membuat aplikasi backend",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Muhammad Abduh",
+  "license": "ISC"
+}
