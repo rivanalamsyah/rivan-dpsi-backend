@@ -1,5 +1,5 @@
 # biodata
-NIM: 2100016008  
-Nama: Muhammad Abduh  
+NIM: 2100016103  
+Nama: Rivan Alamsyah
 
 ## API DPSI
