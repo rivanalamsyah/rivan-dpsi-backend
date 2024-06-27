@@ -5,14 +5,7 @@ const { authenticate, authorize } = require("../middleware/auth");
 // Endpoint untuk menambahkan produk baru
 router.post("/", authenticate, authorize(["admin"]), async (req, res, next) => {
   try {
-    const { productName, supplierID, categoryID, unit, price } = req.body;
-    const newProduct = await Products.create({
-      productName,
-      supplierID,
-      categoryID,
-      unit,
-      price,
-    });
+    const newProduct = await Products.create(req.body);
     res.status(201).json(newProduct);
   } catch (err) {
     next(err);

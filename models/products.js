@@ -2,6 +2,7 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("./index");
 const OrderDetail = require("./orderDetail");
+
 const Products = sequelize.define("Product", {
   productID: {
     type: DataTypes.INTEGER,
